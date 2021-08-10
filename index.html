@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer Parcial, Juegos Olimpicos</title>
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!--conexion al css-->
+    <link rel="stylesheet" href="styles.css">
+    <!--estilo de letra utilizada-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <!--icono de busqueda-->
+    <div class="menu-btn"><i class="fas fa-bars"></i>
+    </div>
+    <!--contenedor principal-->  
+    <div class="container">
+       <!--menu principal-->
+       <nav class="nav-main">
+           <img src="img/Tokio.png" alt=" COG TOKIO 2020" class="nav-logo">
+           <ul class="nav-menu">
+               <li>
+                   <a href="#">COMITE OLIMPICO GUATEMALTECO, ATLETAS DESTACADOS EN LAS OLIMPIADAS DE TOKIO 2020</a>
+               </li>
+           </ul>
+           <img src="img/bandera guatemala.jpg" alt=" COG TOKIO 2020" class="nav-logo">
+       </nav> 
+       <hr>
+       <hr>
+       <!--Servicios-->
+       <div class="servicios">
+           <div>
+               <img src="img/kevin.jpg" alt="Servcio 1">
+               <h3>Kevin Haroldo Cordón Buezo</h3>
+               <p>BADMINTONISTA</p>
+               <p>4to Lugar en la rama de badminton, derrotando a los mejores del mundo y sorprendiendo a todos los guatemaltecos con el gran nivel que mostro.</p>
+           </div>
+           <div>
+                <img src="img/charles.jpg" alt="Servcio 2">
+                <h3>Charles David Fernández Wanke</h3>
+                <p>PENTATLETA</p>
+                <p>Mejor Latinoamericano en Pentatlon Moderno, demostro que esta hecho para grandes citas de este conjunto de deportes y que puede llegar muy lejos para las proximas olimpiadas.</p>
+            </div>
+            <div>
+                <img src="img/Martinez.png" alt="Servcio 3">
+                <h3>Luis Carlos Martinez</h3>
+                <p>NADADOR</p>
+                <p>7mo Lugar en la Final de 100m Mariposa, batiendo el record de nada mas y nada menos 
+                    que Michael Phelps, esto nos deja con una gran satisfaccion ya que tenemos mucha esperanza en este gran atleta.
+                </p>
+            </div>
+        </div>
+        <div class="Saludos">
+            <h2>
+                MANDA UN MENSAJE DE APOYO A NUESTROS ATLETAS DESTACADOS
+            </h2>
+            <div>
+                <section class="form-register">
+                    <h4>Mensaje de Saludo a los Atletas</h4>
+                    <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+                    <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+                    <input class="controls" type="text" name="ATLETAS" id="Atletas" placeholder="Ingresa el Nombre del Atleta">
+                    <textarea class="controls" name="saludos" id="Saludos" placeholder="Ingresa el Mensaje que Deseas" cols="40" rows="10"></textarea>
+                    <script>
+                        function mensaje(){
+                            alert("El mensaje al Atleta fue enviado con exito")
+                        }
+                    </script>
+                    <input class="botons" type="submit" value="Enviar Mensaje" onclick="mensaje()">
+                  </section>
+            </div>
+        </div>
+        <div>
+        </div>
+        <!--social-->
+        <section class="social">
+            <p>REDES SOCIALES COG</p>
+            <div class="links">
+                <a href="#"> <i class="fab fa-facebook"></i></a>
+                <a href="#"> <i class="fab fa-twitter"></i></a>
+                <a href="#"> <i class="fab fa-youtube"></i></a>
+                <a href="#"> <i class="fab fa-instagram"></i></a>
+            </div>
+
+        </section>
+  
+    </div>
+   <!--pie de pagina -->
+   <div class="footer-links">
+    <div class="footer-container">
+    </div>
+</div>
+    <footer class="footer">   
+        <h3>COMITE OLIMPICO GUATEMALTECO 2021</h3>
+        <p>Michael Estuardo Ramírez Godoy</p>
+    </footer> 
+
+    <!--estilo de scroll-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--conexion al js-->
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,238 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+
+body{
+    background: #000000;
+    color: rgb(8, 8, 8);
+    background-color: #121212;
+background-image: url("https://img.nbc.com/sites/nbcunbc/files/images/2021/6/16/JuegosOlimpicosTokyo-Logo-1920x1080.jpg");
+font-size: 16px;
+font-family: 'MV BOLI', serif;
+}
+
+
+/*Eslilizado de el menu principal*/
+a{
+    color: rgb(249, 249, 252);
+    text-decoration: none;
+
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+    
+}
+
+
+.nav-main{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+
+}
+
+.nav-logo{
+    width: 100px;
+}
+
+.nav-main ul{
+    display: flex;
+}
+
+.nav-main ul li{
+    padding: 10px;
+}
+
+.nav-main ul li a:hover{
+    border-bottom: 2px solid #fff;
+}
+
+.nav-main ul.nav-menu {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.menu-btn{
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 30px;
+    z-index: 2;
+    font-size: 1.2rem;
+    display: none;
+}
+
+
+hr{
+    margin: 10px 0;
+}
+
+/*Estilizado de la imagen principal*/
+.imgPrincipal{
+    width: 100%;
+    height: 500px;
+    background: url('./img/imgP1.jpg') no-repeat center center/cover;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+}
+
+.imgPrincipal.h2, .imgPrincipal p{
+    margin-bottom: 10px;
+}
+
+
+
+.btn:hover{
+    opacity: .5;
+}
+
+/* Estilizado de los Servicios*/
+
+.servicios{
+    display:  grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    gap: 30px;
+    margin: 10px 0;
+}
+
+.servicios img{
+    width: 300px;
+    height: 300px;
+}
+
+.servicios h3{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.servicios a{
+    padding: 10px 0;
+    color: #f2f2f2;
+    text-transform: uppercase;
+    display: inline-block;
+    font-weight: bold;
+
+}
+
+.servicios a:hover{
+    text-decoration: underline;
+}
+
+/* Estilizado del baner uno de servicios*/
+.servicios-banner-uno{
+    width: 100%;
+    height: 350px;
+    background: url('./img/banner1.png');
+    margin-bottom: 40px;
+    opacity: .7;
+}
+
+.servicios-banner-uno .content{
+    width: 50%;
+    padding: 90px 0 0  30px;
+    color: #ffffff;
+}
+
+.servicios-banner-uno p, .servicios-banner-uno h2{
+    margin: 10px 0 20px 0;
+
+}
+
+/* Estliziado del baner dos de servicios*/
+.servicios-banner-dos{
+    width: 100%;
+    height: 300px;
+    background: url('./img/banner.jpg');
+    margin-bottom: 40px;
+    opacity: .7;
+}
+
+.servicios-banner-dos .content{
+    width: 50%;
+    padding: 40px 0 0  20px;
+    color: #ffffff;
+}
+
+.servicios-banner-dos p, .servicios-banner-dos h2{
+    margin: 10px 0 20px 0;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  
+  .form-register {
+    width: 400px;
+    background: #261566;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px rgb(139, 15, 240);
+  }
+  
+  .form-register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    background: #08365c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #ec0808;
+    font-family: 'calibri';
+    font-size: 18px;
+    color: white;
+  }
+  
+  .form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+  }
+  
+  .form-register a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .form-register a:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .form-register .botons {
+    width: 100%;
+    background: #010e57;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+  }
